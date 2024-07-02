@@ -1,0 +1,11 @@
+/build/
+/bin/
+target/
+.idea
+classes/
+
+.project
+
+.classpath
+.settings/
+.loadpath
