@@ -31,15 +31,32 @@ public class UserDAO {
 			rs = pstmt.executeQuery();
 			if(rs.next()) {
 				if(rs.getString(1).equals(userPassword)) {
-					return 1; // ·Î±×ÀÎ ¼º°ø
+					return 1; // ë¡œê·¸ì¸ ì„±ê³µ
 				} else {
-					return 0; // ºñ¹Ğ¹øÈ£ ºÒÀÏÄ¡
+					return 0; // ë¹„ë°€ë²ˆí˜¸ ë¶ˆì¼ì¹˜
 				}
 			}
-			return -1; // ¾ÆÀÌµğ°¡ ¾øÀ½
+			return -1; // ì•„ì´ë””ê°€ ì—†ìŒ
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-		return -2; // µ¥ÀÌÅÍº£ÀÌ½º È£Ãâ
+		return -2; // ë°ì´í„°ë² ì´ìŠ¤ í˜¸ì¶œ
+	}
+	
+	public int join(User user) {
+		String SQL = "INSERT INTO USER VALUES (?, ?, ?, ?, ?)";
+		try {
+			pstmt = conn.prepareStatement(SQL);
+			pstmt.setString(1, user.getUserID());
+			pstmt.setString(2, user.getUserPassword());
+			pstmt.setString(3, user.getUserName());
+			pstmt.setString(4, user.getUserGender());
+			pstmt.setString(5, user.getUserEmail());
+			
+			return pstmt.executeUpdate(); 
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		return -1; // ë°ì´í„°ë² ì´ìŠ¤ í˜¸ì¶œ
 	}
 }
