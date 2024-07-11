@@ -26,6 +26,13 @@
 
 ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/7fd6e178-d667-49e5-b376-f448c04b8fb4)
 
+※ 참고
+```
+SHOW DATABASES; -- DB 리스트 조회
+USE 'DB이름'; -- 해당 DB로 이동
+SHOW TABLES; -- DB TABLE 리스트 조회
+```
+
 #### 2) eclipse Dynamic Web Project 생성 
  : Tomcat 연결, mysql 연결 및 localhost Test
 
