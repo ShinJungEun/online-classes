@@ -24,7 +24,7 @@
 #### 1) mysql 설치, DB 및 테이블 생성
  : mysql Database를 설치하여 회원 관리를 위한 user 테이블 생성
 
-![image](https://github.com/ShinJungEun/online-classes/assets/38749778/7fd6e178-d667-49e5-b376-f448c04b8fb4)
+ &nbsp; ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/7fd6e178-d667-49e5-b376-f448c04b8fb4)
 
 ※ 참고
 ```
@@ -32,7 +32,7 @@ SHOW DATABASES; -- DB 리스트 조회
 USE 'DB이름'; -- 해당 DB로 이동
 SHOW TABLES; -- DB TABLE 리스트 조회
 ```
-![image](https://github.com/ShinJungEun/online-classes/assets/38749778/08238af8-5a93-412a-b71a-efe2f4bb9a1b)
+ &nbsp; ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/08238af8-5a93-412a-b71a-efe2f4bb9a1b)
 
 
 #### 2) eclipse Dynamic Web Project 생성 
@@ -50,10 +50,14 @@ SHOW TABLES; -- DB TABLE 리스트 조회
  : 게시글을 작성할 수 있는 게시판 화면 구현. 
  - 게시판 정보를 저장할 수 있는 db 테이블 생성
  
- ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/5f099750-dddc-49ca-bf79-e06041116129)
+  &nbsp; ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/5f099750-dddc-49ca-bf79-e06041116129)
  
  - 게시판에 작성된 글 목록을 확인할 수 있는 화면 구현
+   
+ &nbsp; ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/8ebb98ef-746a-4d01-9be6-383f954a1b5d)
+   
  - 게시판에 글을 작성하는 화면과, 게시글을 저장하는 기능 구현
- 
+ &nbsp; ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/3ef8e70f-d1e1-4ab1-ada3-a6c235bbab2f)
+
   
 
