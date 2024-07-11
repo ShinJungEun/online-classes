@@ -46,10 +46,14 @@ SHOW TABLES; -- DB TABLE 리스트 조회
 #### 4) session 부여 및 logout 기능 구현
  : 로그인 시, session을 부여하여 관리하고, 로그아웃 시 session을 제거하는 기능 구현
 
- #### 5) 게시판 기능 구현
-  : 게시글을 작성할 수 있는 게시판 화면 구현. 
-  - 게시판 정보를 저장할 수 있는 db 테이블 생성
-  - 게시판에 작성된 글 목록을 확인할 수 있는 화면 구현
-
-  ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/5f099750-dddc-49ca-bf79-e06041116129)
+#### 5) 게시판 기능 구현
+ : 게시글을 작성할 수 있는 게시판 화면 구현. 
+ - 게시판 정보를 저장할 수 있는 db 테이블 생성
+ 
+ ![image](https://github.com/ShinJungEun/online-classes/assets/38749778/5f099750-dddc-49ca-bf79-e06041116129)
+ 
+ - 게시판에 작성된 글 목록을 확인할 수 있는 화면 구현
+ - 게시판에 글을 작성하는 화면과, 게시글을 저장하는 기능 구현
+ 
+  
 
